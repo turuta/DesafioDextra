@@ -1,0 +1,52 @@
+﻿@model IEnumerable<ApiLanches.Models.Ingrediente>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Nome)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Valor)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Qtd)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SomaTotal)
+        </th>
+        <th>Modificar</th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr id="@item.IdIngrediente">
+        <td>
+            @Html.DisplayFor(modelItem => item.Nome)
+        </td>
+        <td class="valorItem">
+            @Html.DisplayFor(modelItem => item.Valor)
+        </td>
+        <td class="qtdItem">
+            @Html.DisplayFor(modelItem => item.Qtd)
+        </td>
+        <td class="valorTotal">
+            @Html.DisplayFor(modelItem => item.SomaTotal)
+        </td>
+        <td><button class="btn btn-primary" onclick="app.ingrediente.adicionar(@item.IdIngrediente)"> Add +</button> <button class="btn btn-danger" onclick="app.ingrediente.remover(@item.IdIngrediente)"> Remover -</button></td>
+        @*<td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.IdIngrediente }) |
+            @Html.ActionLink("Details", "Details", new { id=item.IdIngrediente }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.IdIngrediente })
+        </td>*@
+    </tr>
+}
+
+</table>

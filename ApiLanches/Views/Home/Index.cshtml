@@ -1,0 +1,21 @@
+﻿@model IEnumerable<ApiLanches.Models.Lanche>
+    
+
+<div id="listaDeLanches">
+<h1>Escolha o seu lanche</h1>
+    @foreach (var l in Model)
+    {
+        <button id="@l.IdLanche" class="btn btn-lg btn-primary" onclick="app.ingrediente.lancheEscolhido(@l.IdLanche)"> @l.Nome</button>
+    }
+<hr />
+</div>
+
+<div id="mostrarlancheEscolhido">
+
+<hr />
+</div>
+
+
+<div id="comboIngredientes" style="display: none">
+</div>
+

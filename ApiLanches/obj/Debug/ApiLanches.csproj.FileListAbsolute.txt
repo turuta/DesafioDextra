@@ -1,0 +1,197 @@
+C:\Users\felixcl\Documents\Visual Studio 2013\Projects\ApiLanches\ApiLanches\bin\ApiLanches.dll.config
+C:\Users\felixcl\Documents\Visual Studio 2013\Projects\ApiLanches\ApiLanches\bin\ApiLanches.dll
+C:\Users\felixcl\Documents\Visual Studio 2013\Projects\ApiLanches\ApiLanches\bin\ApiLanches.pdb
+C:\Users\felixcl\Documents\Visual Studio 2013\Projects\ApiLanches\ApiLanches\bin\Antlr3.Runtime.dll
+C:\Users\felixcl\Documents\Visual Studio 2013\Projects\ApiLanches\ApiLanches\bin\EntityFramework.dll
+C:\Users\felixcl\Documents\Visual Studio 2013\Projects\ApiLanches\ApiLanches\bin\EntityFramework.SqlServer.dll
+C:\Users\felixcl\Documents\Visual Studio 2013\Projects\ApiLanches\ApiLanches\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\felixcl\Documents\Visual Studio 2013\Projects\ApiLanches\ApiLanches\bin\Mono.Security.dll
+C:\Users\felixcl\Documents\Visual Studio 2013\Projects\ApiLanches\ApiLanches\bin\Newtonsoft.Json.dll
+C:\Users\felixcl\Documents\Visual Studio 2013\Projects\ApiLanches\ApiLanches\bin\Npgsql.dll
+C:\Users\felixcl\Documents\Visual Studio 2013\Projects\ApiLanches\ApiLanches\bin\Npgsql.EntityFramework.dll
+C:\Users\felixcl\Documents\Visual Studio 2013\Projects\ApiLanches\ApiLanches\bin\System.Net.Http.Formatting.dll
+C:\Users\felixcl\Documents\Visual Studio 2013\Projects\ApiLanches\ApiLanches\bin\System.Web.Helpers.dll
+C:\Users\felixcl\Documents\Visual Studio 2013\Projects\ApiLanches\ApiLanches\bin\System.Web.Http.dll
+C:\Users\felixcl\Documents\Visual Studio 2013\Projects\ApiLanches\ApiLanches\bin\System.Web.Http.WebHost.dll
+C:\Users\felixcl\Documents\Visual Studio 2013\Projects\ApiLanches\ApiLanches\bin\System.Web.Mvc.dll
+C:\Users\felixcl\Documents\Visual Studio 2013\Projects\ApiLanches\ApiLanches\bin\System.Web.Optimization.dll
+C:\Users\felixcl\Documents\Visual Studio 2013\Projects\ApiLanches\ApiLanches\bin\System.Web.Razor.dll
+C:\Users\felixcl\Documents\Visual Studio 2013\Projects\ApiLanches\ApiLanches\bin\System.Web.WebPages.Deployment.dll
+C:\Users\felixcl\Documents\Visual Studio 2013\Projects\ApiLanches\ApiLanches\bin\System.Web.WebPages.dll
+C:\Users\felixcl\Documents\Visual Studio 2013\Projects\ApiLanches\ApiLanches\bin\System.Web.WebPages.Razor.dll
+C:\Users\felixcl\Documents\Visual Studio 2013\Projects\ApiLanches\ApiLanches\bin\WebGrease.dll
+C:\Users\felixcl\Documents\Visual Studio 2013\Projects\ApiLanches\ApiLanches\bin\EntityFramework.xml
+C:\Users\felixcl\Documents\Visual Studio 2013\Projects\ApiLanches\ApiLanches\bin\EntityFramework.SqlServer.xml
+C:\Users\felixcl\Documents\Visual Studio 2013\Projects\ApiLanches\ApiLanches\bin\Npgsql.xml
+C:\Users\felixcl\Documents\Visual Studio 2013\Projects\ApiLanches\ApiLanches\bin\Npgsql.EntityFramework.xml
+C:\Users\felixcl\Documents\Visual Studio 2013\Projects\ApiLanches\ApiLanches\bin\Newtonsoft.Json.xml
+C:\Users\felixcl\Documents\Visual Studio 2013\Projects\ApiLanches\ApiLanches\bin\System.Net.Http.Formatting.xml
+C:\Users\felixcl\Documents\Visual Studio 2013\Projects\ApiLanches\ApiLanches\bin\System.Web.Helpers.xml
+C:\Users\felixcl\Documents\Visual Studio 2013\Projects\ApiLanches\ApiLanches\bin\System.Web.Http.xml
+C:\Users\felixcl\Documents\Visual Studio 2013\Projects\ApiLanches\ApiLanches\bin\System.Web.Http.WebHost.xml
+C:\Users\felixcl\Documents\Visual Studio 2013\Projects\ApiLanches\ApiLanches\bin\System.Web.Mvc.xml
+C:\Users\felixcl\Documents\Visual Studio 2013\Projects\ApiLanches\ApiLanches\bin\System.Web.Optimization.xml
+C:\Users\felixcl\Documents\Visual Studio 2013\Projects\ApiLanches\ApiLanches\bin\System.Web.Razor.xml
+C:\Users\felixcl\Documents\Visual Studio 2013\Projects\ApiLanches\ApiLanches\bin\System.Web.WebPages.xml
+C:\Users\felixcl\Documents\Visual Studio 2013\Projects\ApiLanches\ApiLanches\bin\System.Web.WebPages.Deployment.xml
+C:\Users\felixcl\Documents\Visual Studio 2013\Projects\ApiLanches\ApiLanches\bin\System.Web.WebPages.Razor.xml
+C:\Users\felixcl\Documents\Visual Studio 2013\Projects\ApiLanches\ApiLanches\bin\Antlr3.Runtime.pdb
+C:\Users\felixcl\Documents\Visual Studio 2013\Projects\ApiLanches\ApiLanches\bin\de\Npgsql.resources.dll
+C:\Users\felixcl\Documents\Visual Studio 2013\Projects\ApiLanches\ApiLanches\bin\es\Npgsql.resources.dll
+C:\Users\felixcl\Documents\Visual Studio 2013\Projects\ApiLanches\ApiLanches\bin\fi\Npgsql.resources.dll
+C:\Users\felixcl\Documents\Visual Studio 2013\Projects\ApiLanches\ApiLanches\bin\fr\Npgsql.resources.dll
+C:\Users\felixcl\Documents\Visual Studio 2013\Projects\ApiLanches\ApiLanches\bin\ja\Npgsql.resources.dll
+C:\Users\felixcl\Documents\Visual Studio 2013\Projects\ApiLanches\ApiLanches\bin\zh-CN\Npgsql.resources.dll
+C:\Users\felixcl\Documents\Visual Studio 2013\Projects\ApiLanches\ApiLanches\obj\Debug\ApiLanches.csprojResolveAssemblyReference.cache
+C:\Users\felixcl\Documents\Visual Studio 2013\Projects\ApiLanches\ApiLanches\obj\Debug\ApiLanches.dll
+C:\Users\felixcl\Documents\Visual Studio 2013\Projects\ApiLanches\ApiLanches\obj\Debug\ApiLanches.pdb
+C:\Users\felixcl\Documents\Visual Studio 2013\Projects\ApiLanches\ApiLanches\obj\Debug\ApiLanches.Migrations.Bancodedadosinicial.resources
+C:\Users\felixcl\Documents\Visual Studio 2013\Projects\ApiLanches\ApiLanches\obj\Debug\ApiLanches.csproj.GenerateResource.Cache
+C:\Users\felixcl\Documents\Visual Studio 2013\Projects\ApiLanches\ApiLanches\obj\Debug\ApiLanches.Migrations.Modificaçãoclasselanche.resources
+C:\Users\EBT\Desktop\Desafio\ApiLanches\ApiLanches\bin\ApiLanches.dll.config
+C:\Users\EBT\Desktop\Desafio\ApiLanches\ApiLanches\bin\ApiLanches.dll
+C:\Users\EBT\Desktop\Desafio\ApiLanches\ApiLanches\bin\ApiLanches.pdb
+C:\Users\EBT\Desktop\Desafio\ApiLanches\ApiLanches\bin\Antlr3.Runtime.dll
+C:\Users\EBT\Desktop\Desafio\ApiLanches\ApiLanches\bin\EntityFramework.dll
+C:\Users\EBT\Desktop\Desafio\ApiLanches\ApiLanches\bin\EntityFramework.SqlServer.dll
+C:\Users\EBT\Desktop\Desafio\ApiLanches\ApiLanches\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\EBT\Desktop\Desafio\ApiLanches\ApiLanches\bin\Mono.Security.dll
+C:\Users\EBT\Desktop\Desafio\ApiLanches\ApiLanches\bin\Newtonsoft.Json.dll
+C:\Users\EBT\Desktop\Desafio\ApiLanches\ApiLanches\bin\Npgsql.dll
+C:\Users\EBT\Desktop\Desafio\ApiLanches\ApiLanches\bin\Npgsql.EntityFramework.dll
+C:\Users\EBT\Desktop\Desafio\ApiLanches\ApiLanches\bin\System.Net.Http.Formatting.dll
+C:\Users\EBT\Desktop\Desafio\ApiLanches\ApiLanches\bin\System.Web.Helpers.dll
+C:\Users\EBT\Desktop\Desafio\ApiLanches\ApiLanches\bin\System.Web.Http.dll
+C:\Users\EBT\Desktop\Desafio\ApiLanches\ApiLanches\bin\System.Web.Http.WebHost.dll
+C:\Users\EBT\Desktop\Desafio\ApiLanches\ApiLanches\bin\System.Web.Mvc.dll
+C:\Users\EBT\Desktop\Desafio\ApiLanches\ApiLanches\bin\System.Web.Optimization.dll
+C:\Users\EBT\Desktop\Desafio\ApiLanches\ApiLanches\bin\System.Web.Razor.dll
+C:\Users\EBT\Desktop\Desafio\ApiLanches\ApiLanches\bin\System.Web.WebPages.Deployment.dll
+C:\Users\EBT\Desktop\Desafio\ApiLanches\ApiLanches\bin\System.Web.WebPages.dll
+C:\Users\EBT\Desktop\Desafio\ApiLanches\ApiLanches\bin\System.Web.WebPages.Razor.dll
+C:\Users\EBT\Desktop\Desafio\ApiLanches\ApiLanches\bin\WebGrease.dll
+C:\Users\EBT\Desktop\Desafio\ApiLanches\ApiLanches\bin\EntityFramework.xml
+C:\Users\EBT\Desktop\Desafio\ApiLanches\ApiLanches\bin\EntityFramework.SqlServer.xml
+C:\Users\EBT\Desktop\Desafio\ApiLanches\ApiLanches\bin\Npgsql.xml
+C:\Users\EBT\Desktop\Desafio\ApiLanches\ApiLanches\bin\Npgsql.EntityFramework.xml
+C:\Users\EBT\Desktop\Desafio\ApiLanches\ApiLanches\bin\Newtonsoft.Json.xml
+C:\Users\EBT\Desktop\Desafio\ApiLanches\ApiLanches\bin\System.Net.Http.Formatting.xml
+C:\Users\EBT\Desktop\Desafio\ApiLanches\ApiLanches\bin\System.Web.Helpers.xml
+C:\Users\EBT\Desktop\Desafio\ApiLanches\ApiLanches\bin\System.Web.Http.xml
+C:\Users\EBT\Desktop\Desafio\ApiLanches\ApiLanches\bin\System.Web.Http.WebHost.xml
+C:\Users\EBT\Desktop\Desafio\ApiLanches\ApiLanches\bin\System.Web.Mvc.xml
+C:\Users\EBT\Desktop\Desafio\ApiLanches\ApiLanches\bin\System.Web.Optimization.xml
+C:\Users\EBT\Desktop\Desafio\ApiLanches\ApiLanches\bin\System.Web.Razor.xml
+C:\Users\EBT\Desktop\Desafio\ApiLanches\ApiLanches\bin\System.Web.WebPages.xml
+C:\Users\EBT\Desktop\Desafio\ApiLanches\ApiLanches\bin\System.Web.WebPages.Deployment.xml
+C:\Users\EBT\Desktop\Desafio\ApiLanches\ApiLanches\bin\System.Web.WebPages.Razor.xml
+C:\Users\EBT\Desktop\Desafio\ApiLanches\ApiLanches\bin\Antlr3.Runtime.pdb
+C:\Users\EBT\Desktop\Desafio\ApiLanches\ApiLanches\bin\de\Npgsql.resources.dll
+C:\Users\EBT\Desktop\Desafio\ApiLanches\ApiLanches\bin\es\Npgsql.resources.dll
+C:\Users\EBT\Desktop\Desafio\ApiLanches\ApiLanches\bin\fi\Npgsql.resources.dll
+C:\Users\EBT\Desktop\Desafio\ApiLanches\ApiLanches\bin\fr\Npgsql.resources.dll
+C:\Users\EBT\Desktop\Desafio\ApiLanches\ApiLanches\bin\ja\Npgsql.resources.dll
+C:\Users\EBT\Desktop\Desafio\ApiLanches\ApiLanches\bin\zh-CN\Npgsql.resources.dll
+C:\Users\EBT\Desktop\Desafio\ApiLanches\ApiLanches\obj\Debug\ApiLanches.dll
+C:\Users\EBT\Desktop\Desafio\ApiLanches\ApiLanches\obj\Debug\ApiLanches.pdb
+C:\Users\EBT\Desktop\Desafio\ApiLanches\ApiLanches\obj\Debug\ApiLanches.Migrations.InicioBD.resources
+C:\Users\EBT\Desktop\Desafio\ApiLanches\ApiLanches\obj\Debug\ApiLanches.csproj.GenerateResource.Cache
+C:\Users\EBT\Desktop\Desafio\ApiLanches\ApiLanches\obj\Debug\ApiLanches.csprojResolveAssemblyReference.cache
+E:\ApiLanches\ApiLanches\bin\ApiLanches.dll.config
+E:\ApiLanches\ApiLanches\bin\ApiLanches.dll
+E:\ApiLanches\ApiLanches\bin\ApiLanches.pdb
+E:\ApiLanches\ApiLanches\bin\Antlr3.Runtime.dll
+E:\ApiLanches\ApiLanches\bin\EntityFramework.dll
+E:\ApiLanches\ApiLanches\bin\EntityFramework.SqlServer.dll
+E:\ApiLanches\ApiLanches\bin\Microsoft.Web.Infrastructure.dll
+E:\ApiLanches\ApiLanches\bin\Mono.Security.dll
+E:\ApiLanches\ApiLanches\bin\Newtonsoft.Json.dll
+E:\ApiLanches\ApiLanches\bin\Npgsql.dll
+E:\ApiLanches\ApiLanches\bin\Npgsql.EntityFramework.dll
+E:\ApiLanches\ApiLanches\bin\System.Net.Http.Formatting.dll
+E:\ApiLanches\ApiLanches\bin\System.Web.Helpers.dll
+E:\ApiLanches\ApiLanches\bin\System.Web.Http.dll
+E:\ApiLanches\ApiLanches\bin\System.Web.Http.WebHost.dll
+E:\ApiLanches\ApiLanches\bin\System.Web.Mvc.dll
+E:\ApiLanches\ApiLanches\bin\System.Web.Optimization.dll
+E:\ApiLanches\ApiLanches\bin\System.Web.Razor.dll
+E:\ApiLanches\ApiLanches\bin\System.Web.WebPages.Deployment.dll
+E:\ApiLanches\ApiLanches\bin\System.Web.WebPages.dll
+E:\ApiLanches\ApiLanches\bin\System.Web.WebPages.Razor.dll
+E:\ApiLanches\ApiLanches\bin\WebGrease.dll
+E:\ApiLanches\ApiLanches\bin\EntityFramework.xml
+E:\ApiLanches\ApiLanches\bin\EntityFramework.SqlServer.xml
+E:\ApiLanches\ApiLanches\bin\Npgsql.xml
+E:\ApiLanches\ApiLanches\bin\Npgsql.EntityFramework.xml
+E:\ApiLanches\ApiLanches\bin\Newtonsoft.Json.xml
+E:\ApiLanches\ApiLanches\bin\System.Net.Http.Formatting.xml
+E:\ApiLanches\ApiLanches\bin\System.Web.Helpers.xml
+E:\ApiLanches\ApiLanches\bin\System.Web.Http.xml
+E:\ApiLanches\ApiLanches\bin\System.Web.Http.WebHost.xml
+E:\ApiLanches\ApiLanches\bin\System.Web.Mvc.xml
+E:\ApiLanches\ApiLanches\bin\System.Web.Optimization.xml
+E:\ApiLanches\ApiLanches\bin\System.Web.Razor.xml
+E:\ApiLanches\ApiLanches\bin\System.Web.WebPages.xml
+E:\ApiLanches\ApiLanches\bin\System.Web.WebPages.Deployment.xml
+E:\ApiLanches\ApiLanches\bin\System.Web.WebPages.Razor.xml
+E:\ApiLanches\ApiLanches\bin\Antlr3.Runtime.pdb
+E:\ApiLanches\ApiLanches\bin\de\Npgsql.resources.dll
+E:\ApiLanches\ApiLanches\bin\es\Npgsql.resources.dll
+E:\ApiLanches\ApiLanches\bin\fi\Npgsql.resources.dll
+E:\ApiLanches\ApiLanches\bin\fr\Npgsql.resources.dll
+E:\ApiLanches\ApiLanches\bin\ja\Npgsql.resources.dll
+E:\ApiLanches\ApiLanches\bin\zh-CN\Npgsql.resources.dll
+E:\ApiLanches\ApiLanches\obj\Debug\ApiLanches.csprojResolveAssemblyReference.cache
+E:\ApiLanches\ApiLanches\obj\Debug\ApiLanches.Migrations.InicioBD.resources
+E:\ApiLanches\ApiLanches\obj\Debug\ApiLanches.csproj.GenerateResource.Cache
+E:\ApiLanches\ApiLanches\obj\Debug\ApiLanches.dll
+E:\ApiLanches\ApiLanches\obj\Debug\ApiLanches.pdb
+C:\Users\EBT\Desktop\ApiLanches\ApiLanches\bin\ApiLanches.dll.config
+C:\Users\EBT\Desktop\ApiLanches\ApiLanches\bin\ApiLanches.dll
+C:\Users\EBT\Desktop\ApiLanches\ApiLanches\bin\ApiLanches.pdb
+C:\Users\EBT\Desktop\ApiLanches\ApiLanches\bin\Antlr3.Runtime.dll
+C:\Users\EBT\Desktop\ApiLanches\ApiLanches\bin\EntityFramework.dll
+C:\Users\EBT\Desktop\ApiLanches\ApiLanches\bin\EntityFramework.SqlServer.dll
+C:\Users\EBT\Desktop\ApiLanches\ApiLanches\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\EBT\Desktop\ApiLanches\ApiLanches\bin\Mono.Security.dll
+C:\Users\EBT\Desktop\ApiLanches\ApiLanches\bin\Newtonsoft.Json.dll
+C:\Users\EBT\Desktop\ApiLanches\ApiLanches\bin\Npgsql.dll
+C:\Users\EBT\Desktop\ApiLanches\ApiLanches\bin\Npgsql.EntityFramework.dll
+C:\Users\EBT\Desktop\ApiLanches\ApiLanches\bin\System.Net.Http.Formatting.dll
+C:\Users\EBT\Desktop\ApiLanches\ApiLanches\bin\System.Web.Helpers.dll
+C:\Users\EBT\Desktop\ApiLanches\ApiLanches\bin\System.Web.Http.dll
+C:\Users\EBT\Desktop\ApiLanches\ApiLanches\bin\System.Web.Http.WebHost.dll
+C:\Users\EBT\Desktop\ApiLanches\ApiLanches\bin\System.Web.Mvc.dll
+C:\Users\EBT\Desktop\ApiLanches\ApiLanches\bin\System.Web.Optimization.dll
+C:\Users\EBT\Desktop\ApiLanches\ApiLanches\bin\System.Web.Razor.dll
+C:\Users\EBT\Desktop\ApiLanches\ApiLanches\bin\System.Web.WebPages.Deployment.dll
+C:\Users\EBT\Desktop\ApiLanches\ApiLanches\bin\System.Web.WebPages.dll
+C:\Users\EBT\Desktop\ApiLanches\ApiLanches\bin\System.Web.WebPages.Razor.dll
+C:\Users\EBT\Desktop\ApiLanches\ApiLanches\bin\WebGrease.dll
+C:\Users\EBT\Desktop\ApiLanches\ApiLanches\bin\EntityFramework.xml
+C:\Users\EBT\Desktop\ApiLanches\ApiLanches\bin\EntityFramework.SqlServer.xml
+C:\Users\EBT\Desktop\ApiLanches\ApiLanches\bin\Npgsql.xml
+C:\Users\EBT\Desktop\ApiLanches\ApiLanches\bin\Npgsql.EntityFramework.xml
+C:\Users\EBT\Desktop\ApiLanches\ApiLanches\bin\Newtonsoft.Json.xml
+C:\Users\EBT\Desktop\ApiLanches\ApiLanches\bin\System.Net.Http.Formatting.xml
+C:\Users\EBT\Desktop\ApiLanches\ApiLanches\bin\System.Web.Helpers.xml
+C:\Users\EBT\Desktop\ApiLanches\ApiLanches\bin\System.Web.Http.xml
+C:\Users\EBT\Desktop\ApiLanches\ApiLanches\bin\System.Web.Http.WebHost.xml
+C:\Users\EBT\Desktop\ApiLanches\ApiLanches\bin\System.Web.Mvc.xml
+C:\Users\EBT\Desktop\ApiLanches\ApiLanches\bin\System.Web.Optimization.xml
+C:\Users\EBT\Desktop\ApiLanches\ApiLanches\bin\System.Web.Razor.xml
+C:\Users\EBT\Desktop\ApiLanches\ApiLanches\bin\System.Web.WebPages.xml
+C:\Users\EBT\Desktop\ApiLanches\ApiLanches\bin\System.Web.WebPages.Deployment.xml
+C:\Users\EBT\Desktop\ApiLanches\ApiLanches\bin\System.Web.WebPages.Razor.xml
+C:\Users\EBT\Desktop\ApiLanches\ApiLanches\bin\Antlr3.Runtime.pdb
+C:\Users\EBT\Desktop\ApiLanches\ApiLanches\bin\de\Npgsql.resources.dll
+C:\Users\EBT\Desktop\ApiLanches\ApiLanches\bin\es\Npgsql.resources.dll
+C:\Users\EBT\Desktop\ApiLanches\ApiLanches\bin\fi\Npgsql.resources.dll
+C:\Users\EBT\Desktop\ApiLanches\ApiLanches\bin\fr\Npgsql.resources.dll
+C:\Users\EBT\Desktop\ApiLanches\ApiLanches\bin\ja\Npgsql.resources.dll
+C:\Users\EBT\Desktop\ApiLanches\ApiLanches\bin\zh-CN\Npgsql.resources.dll
+C:\Users\EBT\Desktop\ApiLanches\ApiLanches\obj\Debug\ApiLanches.Migrations.InicioBD.resources
+C:\Users\EBT\Desktop\ApiLanches\ApiLanches\obj\Debug\ApiLanches.csproj.GenerateResource.Cache
+C:\Users\EBT\Desktop\ApiLanches\ApiLanches\obj\Debug\ApiLanches.dll
+C:\Users\EBT\Desktop\ApiLanches\ApiLanches\obj\Debug\ApiLanches.pdb
+C:\Users\EBT\Desktop\ApiLanches\ApiLanches\obj\Debug\ApiLanches.csprojResolveAssemblyReference.cache

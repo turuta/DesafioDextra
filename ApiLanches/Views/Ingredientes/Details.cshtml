@@ -1,0 +1,50 @@
+﻿@model ApiLanches.Models.Ingrediente
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Ingrediente</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Nome)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nome)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Valor)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Valor)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Qtd)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Qtd)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SomaTotal)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SomaTotal)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.IdIngrediente }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

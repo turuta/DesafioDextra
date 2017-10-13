@@ -1,0 +1,37 @@
+﻿@using ApiLanches.Models
+@model IEnumerable<ApiLanches.Models.Lanche>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Nome)
+        </th>
+        <td>@Html.DisplayNameFor(model => model.Ingredientes)</td>
+        @*<th></th>*@
+    </tr>
+
+@foreach (var item in Model) {
+    <tr class="@item.IdLanche">
+        <td>
+            @Html.DisplayFor(modelItem => item.Nome)
+        </td>
+        <td class="ingredientes">
+            @foreach (var t in item.Ingredientes)
+            {
+                <button class="btn btn-default"> @t.Nome </button>
+            }
+        </td>
+        
+    </tr>
+}
+
+</table>
