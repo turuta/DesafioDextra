@@ -51,6 +51,8 @@ namespace ApiLanches.Controllers
         {
             if (ModelState.IsValid)
             {
+                ingrediente.Qtd = 1;
+                ingrediente.SomaTotal = ingrediente.Valor;
                 db.Ingredientes.Add(ingrediente);
                 await db.SaveChangesAsync();
                 return RedirectToAction("Index");
@@ -83,6 +85,8 @@ namespace ApiLanches.Controllers
         {
             if (ModelState.IsValid)
             {
+                ingrediente.Qtd = 1;
+                ingrediente.SomaTotal = 0;
                 db.Entry(ingrediente).State = EntityState.Modified;
                 await db.SaveChangesAsync();
                 return RedirectToAction("Index");

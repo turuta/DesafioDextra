@@ -1,6 +1,8 @@
 ﻿using ApiLanches.Models;
+using Npgsql;
 using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Linq;
 using System.Web;
 
@@ -13,7 +15,7 @@ namespace ApiLanches.RegraNegocio
         /// Método que verifica todas as promoções e retorna um objeto Lanche com valor do desconto e o valor total do lanche com o desconto
         /// </summary>
         /// <param name="objLancheFront"></param>
-        /// <returns></returns>
+        /// <returns>Retorna um objeto do tipo lanche com dados de valot total e desconto atualizados</returns>
         public Lanche calculaDesconto(Lanche objLancheFront)
         {
             
@@ -50,7 +52,7 @@ namespace ApiLanches.RegraNegocio
         /// Método que verifica se lanche faz parte da promoção "Lanche Light" - Se lanche possui alface e não tem bacon, ganha 10% de desconto
         /// </summary>
         /// <param name="listIngredientes"></param>
-        /// <returns></returns>
+        /// <returns>Retorna um booleano - Se lanche faz parte da promoção ou não</returns>
         public bool VerificaLancheLight(List<Ingrediente> listIngredientes)
         {
             bool light = false;
@@ -59,11 +61,11 @@ namespace ApiLanches.RegraNegocio
 
             for (int i = 0; i < listIngredientes.Count; i++)
             {
-                if (listIngredientes[i].Nome == "Alface")
+                if (listIngredientes[i].Nome == "Alface" && listIngredientes[i].Qtd > 0)
                 {
                     alface++;
                 }
-                if (listIngredientes[i].Nome == "Bacon")
+                if (listIngredientes[i].Nome == "Bacon" && listIngredientes[i].Qtd > 0)
                 {
                     bacon++;
                 }
@@ -81,7 +83,7 @@ namespace ApiLanches.RegraNegocio
         /// Método que calcula valor de desconto do lanche caso faça parte da promoção "Lanche Light"
         /// </summary>
         /// <param name="valorTotal"></param>
-        /// <returns></returns>
+        /// <returns>Retorna valor do lanche com desconto da promoção</returns>
         public double calculaLancheLight(double valorTotal)
         {
             double valor = 0;
@@ -96,7 +98,7 @@ namespace ApiLanches.RegraNegocio
         /// Método que verifica se lanche faz parte da promoção "Muita Carne" - A cada 3 porções de carne o cliente só paga duas.
         /// </summary>
         /// <param name="listIngredientes"></param>
-        /// <returns></returns>
+        /// <returns>Retorna um booleano se o lanche faz parte da promoção ou não</returns>
         public bool VerificaLancheMuitaCarne(List<Ingrediente> listIngredientes)
         {
             bool muitaCarne = false;
@@ -148,7 +150,7 @@ namespace ApiLanches.RegraNegocio
             valor = valorTotal - valorDesconto;
 
 
-            return valor;
+            return Math.Round(valor,2);
         }
 
 
@@ -213,5 +215,93 @@ namespace ApiLanches.RegraNegocio
 
             return valor;
         }
+
+
+        
+        public Lanche GetLanche(int id)
+        {
+           
+            string cmdSql = "";
+            Lanche objLanche = new Lanche();
+            NpgsqlDataReader aReader = null;
+            //cria a conexão com o banco de dados
+            string tabela = "dbo.#Lanches#";
+            string Id = "#IdLanche#";
+
+            NpgsqlConnection aConnection = new NpgsqlConnection(ConfigurationManager.ConnectionStrings["Lanches"].ConnectionString);
+            try
+            {
+                cmdSql = @"select * from " + tabela.Replace('#', '"') + " where " + Id.Replace('#', '"') + " = " + id + " ";
+                aConnection.Open();
+                //cria o objeto command and armazena a consulta SQL
+                NpgsqlCommand aCommand = new NpgsqlCommand(cmdSql, aConnection);
+
+                aReader = aCommand.ExecuteReader();
+
+                while (aReader.Read())
+                {
+                    
+                    objLanche.IdLanche = Convert.ToInt32(aReader["IdLanche"]);
+                    objLanche.Nome = aReader["Nome"].ToString();
+
+                   
+                }
+               
+            }
+            catch (Exception e)
+            {
+
+            }
+            finally
+            {
+                aConnection.Close();
+            }
+            return objLanche;
+        }
+
+        public List<Ingrediente> GetIngredientes()
+        {
+            List<Ingrediente> listIngredientes = new List<Ingrediente>();
+            string cmdSql = "";
+            Ingrediente objIng; 
+            NpgsqlDataReader aReader = null;
+            //cria a conexão com o banco de dados
+            string tabela = "dbo.#Ingredientes#";
+            string Id = "#IdIngrediente#";
+
+            NpgsqlConnection aConnection = new NpgsqlConnection(ConfigurationManager.ConnectionStrings["Lanches"].ConnectionString);
+            try
+            {
+                cmdSql = @"select * from " + tabela.Replace('#', '"') + " ";
+                aConnection.Open();
+                //cria o objeto command and armazena a consulta SQL
+                NpgsqlCommand aCommand = new NpgsqlCommand(cmdSql, aConnection);
+
+                aReader = aCommand.ExecuteReader();
+
+                while (aReader.Read())
+                {
+                    objIng = new Ingrediente();
+                    objIng.IdIngrediente = Convert.ToInt32(aReader["IdIngrediente"]);
+                    objIng.Nome = aReader["Nome"].ToString();
+                    objIng.Valor = Convert.ToDouble(aReader["Valor"]);
+
+                    listIngredientes.Add(objIng);
+
+                }
+
+            }
+            catch (Exception e)
+            {
+
+            }
+            finally
+            {
+                aConnection.Close();
+            }
+            return listIngredientes;
+        }
+
+
     }
 }

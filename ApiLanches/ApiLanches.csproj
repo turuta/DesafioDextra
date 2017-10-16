@@ -170,6 +170,7 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\IngredientesApiController.cs" />
     <Compile Include="Controllers\IngredientesController.cs" />
+    <Compile Include="Controllers\Lanches1Controller.cs" />
     <Compile Include="Controllers\LanchesApiController.cs" />
     <Compile Include="Controllers\LanchesController.cs" />
     <Compile Include="Controllers\PedidosController.cs" />
@@ -177,9 +178,9 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201710101617182_Inicio BD.cs" />
-    <Compile Include="Migrations\201710101617182_Inicio BD.Designer.cs">
-      <DependentUpon>201710101617182_Inicio BD.cs</DependentUpon>
+    <Compile Include="Migrations\201710142327218_Banco2.cs" />
+    <Compile Include="Migrations\201710142327218_Banco2.Designer.cs">
+      <DependentUpon>201710142327218_Banco2.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\DataContext.cs" />
@@ -221,6 +222,8 @@
     <Content Include="Areas\HelpPage\Views\Help\Api.cshtml" />
     <Content Include="Scripts\bootstrap-select.js.map" />
     <Content Include="Content\bootstrap-select.css.map" />
+    <None Include="Properties\PublishProfiles\desafio.pubxml" />
+    <None Include="Properties\PublishProfiles\turuta.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\i18n\defaults-ar_AR.js" />
     <Content Include="Scripts\i18n\defaults-ar_AR.min.js" />
@@ -329,6 +332,11 @@
     <Content Include="Views\Lanches\Edit.cshtml" />
     <Content Include="Views\Lanches\Index.cshtml" />
     <Content Include="Views\Home\Help.cshtml" />
+    <Content Include="Views\Lanches1\Create.cshtml" />
+    <Content Include="Views\Lanches1\Delete.cshtml" />
+    <Content Include="Views\Lanches1\Details.cshtml" />
+    <Content Include="Views\Lanches1\Edit.cshtml" />
+    <Content Include="Views\Lanches1\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -339,8 +347,8 @@
     <None Include="Project_Readme.html" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201710101617182_Inicio BD.resx">
-      <DependentUpon>201710101617182_Inicio BD.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201710142327218_Banco2.resx">
+      <DependentUpon>201710142327218_Banco2.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

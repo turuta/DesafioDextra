@@ -28,7 +28,7 @@ namespace ApiLanches.Controllers
             {
                 return NotFound();
             }
-
+            
             return Ok(ingrediente);
         }
 

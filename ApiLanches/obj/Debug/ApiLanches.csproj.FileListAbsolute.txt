@@ -146,6 +146,7 @@ E:\ApiLanches\ApiLanches\obj\Debug\ApiLanches.Migrations.InicioBD.resources
 E:\ApiLanches\ApiLanches\obj\Debug\ApiLanches.csproj.GenerateResource.Cache
 E:\ApiLanches\ApiLanches\obj\Debug\ApiLanches.dll
 E:\ApiLanches\ApiLanches\obj\Debug\ApiLanches.pdb
+C:\Users\EBT\Desktop\ApiLanches\ApiLanches\bin\EntityFramework.xml
 C:\Users\EBT\Desktop\ApiLanches\ApiLanches\bin\ApiLanches.dll.config
 C:\Users\EBT\Desktop\ApiLanches\ApiLanches\bin\ApiLanches.dll
 C:\Users\EBT\Desktop\ApiLanches\ApiLanches\bin\ApiLanches.pdb
@@ -168,7 +169,6 @@ C:\Users\EBT\Desktop\ApiLanches\ApiLanches\bin\System.Web.WebPages.Deployment.dl
 C:\Users\EBT\Desktop\ApiLanches\ApiLanches\bin\System.Web.WebPages.dll
 C:\Users\EBT\Desktop\ApiLanches\ApiLanches\bin\System.Web.WebPages.Razor.dll
 C:\Users\EBT\Desktop\ApiLanches\ApiLanches\bin\WebGrease.dll
-C:\Users\EBT\Desktop\ApiLanches\ApiLanches\bin\EntityFramework.xml
 C:\Users\EBT\Desktop\ApiLanches\ApiLanches\bin\EntityFramework.SqlServer.xml
 C:\Users\EBT\Desktop\ApiLanches\ApiLanches\bin\Npgsql.xml
 C:\Users\EBT\Desktop\ApiLanches\ApiLanches\bin\Npgsql.EntityFramework.xml
@@ -190,7 +190,7 @@ C:\Users\EBT\Desktop\ApiLanches\ApiLanches\bin\fi\Npgsql.resources.dll
 C:\Users\EBT\Desktop\ApiLanches\ApiLanches\bin\fr\Npgsql.resources.dll
 C:\Users\EBT\Desktop\ApiLanches\ApiLanches\bin\ja\Npgsql.resources.dll
 C:\Users\EBT\Desktop\ApiLanches\ApiLanches\bin\zh-CN\Npgsql.resources.dll
-C:\Users\EBT\Desktop\ApiLanches\ApiLanches\obj\Debug\ApiLanches.Migrations.InicioBD.resources
+C:\Users\EBT\Desktop\ApiLanches\ApiLanches\obj\Debug\ApiLanches.Migrations.Banco2.resources
 C:\Users\EBT\Desktop\ApiLanches\ApiLanches\obj\Debug\ApiLanches.csproj.GenerateResource.Cache
 C:\Users\EBT\Desktop\ApiLanches\ApiLanches\obj\Debug\ApiLanches.dll
 C:\Users\EBT\Desktop\ApiLanches\ApiLanches\obj\Debug\ApiLanches.pdb

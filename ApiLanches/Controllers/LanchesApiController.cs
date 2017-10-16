@@ -30,7 +30,7 @@ namespace ApiLanches.Controllers
             {
                 return NotFound();
             }
-            //lanche.Ingredientes.AddRange(db.Ingredientes);
+            
             var ing1 = db.Ingredientes.Find(1);
             var ing2 =  db.Ingredientes.Find(2);
             var ing3 = db.Ingredientes.Find(3);
